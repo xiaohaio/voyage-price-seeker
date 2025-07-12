@@ -51,7 +51,7 @@ export const HotelResults: React.FC<HotelResultsProps> = ({
 
   // Calculate price range from available prices
   const priceRange = useMemo(() => {
-    if (prices.length === 0) return [0, 1000] as [number, number];
+    if (!prices || !Array.isArray(prices) || prices.length === 0) return [0, 1000] as [number, number];
     
     const allPrices = prices.map(p => p.price);
     const min = Math.floor(Math.min(...allPrices) / 10) * 10;
@@ -71,7 +71,7 @@ export const HotelResults: React.FC<HotelResultsProps> = ({
   // Combine hotels with their prices
   const hotelsWithPrices = useMemo(() => {
     return hotels.map(hotel => {
-      const price = prices.find(p => p.id === hotel.id);
+      const price = prices && Array.isArray(prices) ? prices.find(p => p.id === hotel.id) : null;
       return { hotel, price: price || null };
     });
   }, [hotels, prices]);
