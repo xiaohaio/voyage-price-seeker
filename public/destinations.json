@@ -1,0 +1,122 @@
+[
+  {
+    "uid": "WD0M",
+    "term": "Singapore",
+    "lat": 1.3521,
+    "lng": 103.8198,
+    "state": "",
+    "type": "City"
+  },
+  {
+    "uid": "RsBU",
+    "term": "Bangkok, Thailand",
+    "lat": 13.7563,
+    "lng": 100.5018,
+    "state": "Bangkok",
+    "type": "City"
+  },
+  {
+    "uid": "diH7",
+    "term": "Tokyo, Japan",
+    "lat": 35.6762,
+    "lng": 139.6503,
+    "state": "Tokyo",
+    "type": "City"
+  },
+  {
+    "uid": "HnJ2",
+    "term": "Hong Kong",
+    "lat": 22.3193,
+    "lng": 114.1694,
+    "state": "",
+    "type": "City"
+  },
+  {
+    "uid": "KmP9",
+    "term": "Seoul, South Korea",
+    "lat": 37.5665,
+    "lng": 126.9780,
+    "state": "Seoul",
+    "type": "City"
+  },
+  {
+    "uid": "Lx8W",
+    "term": "Kuala Lumpur, Malaysia",
+    "lat": 3.1390,
+    "lng": 101.6869,
+    "state": "Kuala Lumpur",
+    "type": "City"
+  },
+  {
+    "uid": "Pq5N",
+    "term": "Bali, Indonesia",
+    "lat": -8.3405,
+    "lng": 115.0920,
+    "state": "Bali",
+    "type": "City"
+  },
+  {
+    "uid": "Rt4B",
+    "term": "Manila, Philippines",
+    "lat": 14.5995,
+    "lng": 120.9842,
+    "state": "Manila",
+    "type": "City"
+  },
+  {
+    "uid": "Sw7X",
+    "term": "Ho Chi Minh City, Vietnam",
+    "lat": 10.8231,
+    "lng": 106.6297,
+    "state": "Ho Chi Minh",
+    "type": "City"
+  },
+  {
+    "uid": "Vy2K",
+    "term": "Phuket, Thailand",
+    "lat": 7.8804,
+    "lng": 98.3923,
+    "state": "Phuket",
+    "type": "City"
+  },
+  {
+    "uid": "Zx9M",
+    "term": "Osaka, Japan",
+    "lat": 34.6937,
+    "lng": 135.5023,
+    "state": "Osaka",
+    "type": "City"
+  },
+  {
+    "uid": "Qw1E",
+    "term": "Taipei, Taiwan",
+    "lat": 25.0330,
+    "lng": 121.5654,
+    "state": "Taipei",
+    "type": "City"
+  },
+  {
+    "uid": "As3D",
+    "term": "Macau",
+    "lat": 22.1987,
+    "lng": 113.5439,
+    "state": "",
+    "type": "City"
+  },
+  {
+    "uid": "Df6G",
+    "term": "Langkawi, Malaysia",
+    "lat": 6.3500,
+    "lng": 99.7500,
+    "state": "Kedah",
+    "type": "City"
+  },
+  {
+    "uid": "Gh8J",
+    "term": "Jeju Island, South Korea",
+    "lat": 33.4996,
+    "lng": 126.5312,
+    "state": "Jeju",
+    "type": "City"
+  }
+]
