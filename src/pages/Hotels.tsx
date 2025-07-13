@@ -81,10 +81,9 @@ const Hotels = () => {
 
   const handleHotelSelect = (hotelId: string) => {
     const hotelParams = new URLSearchParams({
-      hotelId,
       ...searchOptions,
     } as any);
-    navigate(`/hotel/${hotelId}?${hotelParams.toString()}`);
+    navigate(`/hotels/${hotelId}/price?${hotelParams.toString()}`);
   };
 
   if (error) {
