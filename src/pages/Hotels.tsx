@@ -80,9 +80,22 @@ const Hotels = () => {
   };
 
   const handleHotelSelect = (hotelId: string) => {
+    // Calculate guests per room (adults + children)
+    const guestsPerRoom = searchOptions.adults + searchOptions.children;
+    
+    // Create guests string with room separators
+    const guestsParam = Array(searchOptions.rooms).fill(guestsPerRoom).join('|');
+    
     const hotelParams = new URLSearchParams({
-      ...searchOptions,
-    } as any);
+      destination_id: searchOptions.destination_id,
+      checkin: searchOptions.checkin,
+      checkout: searchOptions.checkout,
+      lang: 'en_US',
+      currency: 'SGD',
+      country_code: 'SG',
+      guests: guestsParam,
+      partner_id: '1',
+    });
     navigate(`/hotels/${hotelId}/price?${hotelParams.toString()}`);
   };
 
